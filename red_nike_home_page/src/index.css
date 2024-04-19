@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+  --red:#d01c27;
+  --gray:#2e2e2e;
+}
+*{
+  margin: 0;
+}
+body{
+  padding: 20px;
+  font-family:"Karla";
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap:24px;
+}
+nav img{
+  height: 50px;
+  width: 100px;
+}
+nav ul li a{
+  text-decoration: none;
+  font-weight:400;
+  font-size: 20px;
+}
+button{
+  all:unset;
+  padding: 10px 16px;
+  background: var(--red);
+  border-radius: 20px;
+  height: 32px;
+  /* margin: 20px; */
+  color:white;
+  font-weight: 500;
+}
+.herobutton button{
+  margin: 20px;
+}
+.brand-icon img{
+  height: 70px;
+  width: 70px;
+}
+.Hero{
+  display: flex;
+}
+.Hero .hero-image img{
+  height: 600px;
+  width: 800px;
+}
+.Hero .Herocontent {
+ margin-top: 50px;
+  width: 490px;
+}
+.Hero .Herocontent h1{
+margin-bottom: 30px;
+font-size: 65px;
+font-weight: 1000;
+}
+.Hero .Herocontent p{
+  font-weight: 500;
+}
+.brand-icon img{
+  margin-right: 20px;
+}
