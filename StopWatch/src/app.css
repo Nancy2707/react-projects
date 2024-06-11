@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  align-items:center ;
+}
+.stopwatch{
+  background-color:#680E4B;
+  border-radius: 40px;
+  width: 40vw;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.buttons{
+  padding: auto;
+width: 100%;
+text-align: center  ;
+}
+h1:hover{
+  text-decoration: underline;
+  color: rgb(190, 188, 188);
+  transition: 0.5s;
+}
+button{
+  color: black;
+  background-color: #923912;
+  margin: 10px;
+  padding:10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
+p{
+  font-size: 24px;
+  font-weight: 400;
+}
+button:hover{
+  background-color:#42033D;
+  transform: 1s;
+  color: white;
+  text-decoration: underline;
+  box-shadow: 1px 5px 5px rgba(231, 321, 342, 0.3);
+}
