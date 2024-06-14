@@ -1,0 +1,79 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    line-height: 1.5;
+    font-size: 0.075rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.section{
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 62px;
+}
+.container{
+    width: 50vw;
+    margin: 1rem auto;
+    background:#fff;
+    padding: 2.5rem 2rem;
+    box-shadow: rgba(0, 0, 0,0.24) 0px 3px 8px;
+}
+.container h3{
+    line-height: 1.2;
+    font-weight: 500;
+}
+.question{
+    padding: 1rem,1.5rem;
+    color: rgb(20, 2, 2);
+    margin-bottom: 1rem;
+    border-right: 20px;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    box-shadow: rgba(60,60,67,0.3) 0px 1px 2px 0px;
+}
+.question h4{
+    text-transform: none;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.question p{
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    font-size: 20px;
+}
+.question header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.question header h4{
+    background:transparent;
+    border-color: transparent;
+}
+.btn{
+    background:rgb(201, 199, 199);
+    border: #fff ;
+    padding: 10px;
+    border-radius: 50%;
+}
