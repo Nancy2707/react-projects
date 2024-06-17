@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 70vw; */
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.container h1{
+    margin: auto;
+    text-align: center;
+    padding: 15px 0px;
+    width: 70%;
+    background-color: green;
+    color: #000;
+}
+.shop{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+.shop .item{
+    flex: 45%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+
+}
+.shop .item h2{
+    text-transform:capitalize ;
+
+}
+.shop .item p{
+    padding: 10px 0px;
+}
+.shop .item span{
+    display: block;
+    color: green;
+}
+.shop .item button{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+.shop .item button:hover{
+    background:transparent;
+    color: #000;
+    border: 3px solid green;
+}
+.cart_section{
+    position: absolute;
+    color: #fff;
+    right: 0;
+    top: 0;
+    padding: 40px;
+    background:green;
+    height: 100vh;
+    width: 500px;
+}
+#book_name{
+    color: black;
+    transition: 0.2s;
+}
+#book_name:hover{
+    color: rgb(44, 44, 44);
+    text-decoration: underline;
+}
+#price{
+    color: green;
+    font-weight: bold;
+}
+#main_head{
+    color: white;
+    text-decoration: underline;
+}
+.cart_section .cart_item{
+    display: block;
+    justify-content: space-between;
+    border-bottom: 1px soild white;
+    padding: 5px;
+}
+.cart_item .cart_item button{
+    background: rgb(134, 10, 10);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+#addcart:hover{
+    background: transparent;
+    color: #111;
+    font-weight: bold;
+}
+.total_price{
+    padding: 15px 0;
+    font-size: 22px;
+}
+.item_price{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.price{
+    /* color:; */
+    font-weight: bolder;
+}
+
+.item_title{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.item_title:hover{
+    text-decoration: underline;
+}
+.RemBtn{
+    background: greenyellow;
+    border: none;
+    padding: 8px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 30px;
+}
