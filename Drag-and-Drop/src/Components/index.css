@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    border-left: 5px solid #e1e1e1;
+    padding-left: 5px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 10px 15px;
+    margin: 4px 0px;
+    background-color: #eee;
+    color: #fff;
+    box-sizing: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+li:hover{
+    background: darken(#eee,55%);
+    color: #000;
+}
+.placeholder{
+    background: rgb(255, 240, 129);
+}
+.placeholder:before{
+    content: "Drop Here";
+    color: rgb(225,210, 90);
+}
+.mainhead{
+    text-align: center;
+}
+.mainhead h1{
+    margin-top: 2rem;
+    border: none;
+}
+.mainhead p{
+    margin-bottom: 2rem;
+}
