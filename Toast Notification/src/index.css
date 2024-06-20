@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Toast{
+  background-color: #fff;
+  border-left: 1rem solid #Bababa;
+  border-radius: 0.5rem;
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.25);
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 35rem;
+}
+.toast__message-text{
+  margin-bottom: 0;
+}
+.toast___button{
+  background:transparent;
+  border: none;
+  font-family: inherit;
+  margin-left: 1rem;
+  padding: 0;
+  cursor: pointer;
+  color: indigo;
+}
+.Toast--success{
+  border-color: #008554;
+}
+.Toast--warning{
+  border-color: #FFC627;
+}
+.Toast--error{
+  border-color: #D14229;
+}
+.Toast--error:hover{
+  box-shadow:0.5rem 0.5rem 0.5rem #D14229 ;
+}
+.Toast--warning:hover{
+  box-shadow:0.5rem 0.5rem 0.5rem #ffc127;
+}
+.Toast--success:hover{
+  box-shadow:0.5rem 0.5rem 0.5rem #008854 ;
+}
+.message{
+  margin-top: 35px;
+  font-weight: bold;
+}
+.mainhead{
+text-align: center;
+text-decoration: underline;
+}
